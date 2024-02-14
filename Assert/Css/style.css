@@ -128,7 +128,7 @@ svg {
 
 /****************************************************** header & main slider ************************************************************/
 .hero_section {
-  background-image: url(/Assert/images/main_img.png);
+  background-image: url(Assert/images/main_img.png);
   height: 595px;
   background-repeat: no-repeat;
   position: relative;
@@ -1594,7 +1594,7 @@ footer .footer_container .footer_title {
 .contact_ceo_img {
   width: 105px;
   height: 100px;
-  background-image: url(/Assert/images/ceo.png.jpeg);
+  background-image: url(Assert/images/ceo.png.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 150px;
