@@ -1,0 +1,1039 @@
+/******************************************************* 1800px **********************************************************/
+@media (min-width:1800px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media (max-width:1440px) {
+    .hero_section {
+        height: 100%;
+    }
+}
+
+@media (max-width:1200px) {
+    .end .proces_text_contant {
+        margin: 0 auto 100px;
+        bottom: -13%;
+    }
+
+    .proces_img {
+        right: 10%;
+    }
+
+    .case_proces_step {
+        padding: 315px 0;
+    }
+
+    .contact_ceo {
+        flex-basis: 53%;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .wp_block_space {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:991px) {
+    section {
+        margin-top: 50px;
+    }
+
+    .grid {
+        margin: 70px auto;
+    }
+
+    .case_hero {
+        font-size: 36px;
+    }
+
+    .hero .m560 {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .sliders .watermark {
+        top: 0.7%;
+        font-size: 50px;
+    }
+
+    .hero p {
+        padding-right: 0px;
+    }
+
+    .kafelki_container {
+        flex-flow: row wrap;
+    }
+
+    .kafelki_item {
+        width: 28%;
+        margin: 15px auto;
+        padding: 16px 15px;
+    }
+
+    .filters button {
+        margin: 10px 0;
+    }
+
+    .grid {
+        margin: 35px auto;
+    }
+
+    .case_item .content {
+        width: calc(100% - 300px);
+    }
+
+    .case_item .content h3 {
+        margin-left: 0px;
+    }
+
+    .project_text {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .project_banner .case_layer h1.white,
+    .project_agency .case_layer h1.white,
+    .project_zwift .case_layer h1.white,
+    .project_sephora .case_layer h1.white,
+    .project_herbal .case_layer h1.white,
+    .project_yougig .case_layer h1.white,
+    .project_tradyl .case_layer h1.white,
+    .project_c_choice .case_layer h1.white,
+    .project_skillz_cafe .case_layer h1.white,
+    .project_247fitness .case_layer h1.white,
+    .project_synergy .case_layer h1.white,
+    .project_ethosenergy .case_layer h1.white,
+    .project_zymeal .case_layer h1.white,
+    .project_gharbajaar .case_layer h1.white,
+    .project_viyom .case_layer h1.white,
+    .project_easy2mart .case_layer h1.white,
+    .project_fastdunia .case_layer h1.white,
+    .project_foodezy .case_layer h1.white,
+    .project_gaaricare .case_layer h1.white,
+    .project_kisan .case_layer h1.white,
+    .project_rishiratna .case_layer h1.white,
+    .project_vaidikbasket .case_layer h1.white,
+    .project_carrier .case_layer h1.white,
+    .project_bank .case_layer h1.white,
+    .project_chess .case_layer h1.white {
+        font-size: 36px;
+    }
+
+    .kuhXvV svg {
+        height: 2.4rem;
+    }
+
+    .client_box {
+        flex-direction: column;
+    }
+
+    .benefits .item {
+        height: 240px;
+    }
+
+    .feeturre_logo {
+        width: 150px;
+        height: 45px;
+    }
+
+    .scope_text {
+        font-size: 32px;
+    }
+
+    .wp-block-columns.is-layout-flex.wp-container-3.wp-block-columns-is-layout-flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .layout_flex,
+    .solutions_flex {
+        width: 100%;
+    }
+
+    .wp_block_space {
+        margin-bottom: 50px;
+    }
+
+    section {
+        padding-bottom: 15px;
+    }
+
+    .ceo_text {
+        padding-left: 30px;
+        width: 54%;
+    }
+
+    .ceo_text_contant {
+        font-size: 14px;
+    }
+
+    .ceo_text_conatiner h4 {
+        font-size: 20px;
+    }
+
+    .software_text {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .case_proces_step h4 {
+        font-size: 20px;
+    }
+
+    .case_proces_step p {
+        font-size: 14px;
+    }
+
+    .proces_text_contant {
+        width: 81%;
+    }
+
+    .end .proces_text_contant {
+        width: 81%;
+        bottom: -10%;
+    }
+
+    .proces_img {
+        right: 0%;
+    }
+
+    .case_proces .point {
+        width: 20px;
+        height: 20px;
+    }
+
+    span.fas.fa-chevron-left.fa-2x {
+        right: 10%;
+    }
+
+    .faq_text {
+        font-size: 30px;
+    }
+
+    .hero_logo {
+        width: 200px;
+    }
+
+    .technology_text {
+        font-size: 30px;
+    }
+
+    .contact_page_two {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .contact_page:before {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .contact_ceo {
+        flex-basis: unset;
+    }
+
+    .contact_height {
+        height: 70px;
+    }
+
+    .ceo_container {
+        padding: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .contact_ceo_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact_ceo_img {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    .ceo_details {
+        max-width: unset;
+    }
+
+    .contact_main_title {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 0px;
+    }
+
+    #form_fill {
+        height: 100%;
+    }
+
+    .contact_page:before {
+        min-height: 1225px;
+    }
+}
+
+@media (max-width:767px) {
+    .watermark {
+        display: none;
+    }
+
+    .case_item {
+        flex-flow: column;
+        margin: 10px auto;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .case_item .feeturre_image,
+    .agencyQ_imges,
+    .zwift_image,
+    .sephora_image,
+    .herbal_image,
+    .yougig_image,
+    .tradyl_image,
+    .cosmatic_image,
+    .skillzcafe_image,
+    .fitness_image,
+    .synergy_image,
+    .ethos_image,
+    .zymeal_image,
+    .gaaricare_img,
+    .carrier_img,
+    .fastdunia_img,
+    .viyom_img,
+    .rishiratna_img,
+    .kishan_img,
+    .foodezy_img,
+    .gharbajaar_image,
+    .easy2mart_image,
+    .bank_image,
+    .chess_image {
+        height: 200px;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .case_item .feeturre_image .right_img {
+        object-fit: contain;
+        background: #e0ffe6;
+        /* object-position: right bottom;  */
+    }
+
+    .case_item .agencyQ_imges img {
+        object-fit: contain;
+        background: #fff6f4;
+    }
+
+    .case_item .zwift_image .solt_center_img {
+        object-fit: contain;
+        background: #fc6719;
+    }
+
+    .case_item .sephora_image img {
+        object-fit: contain;
+        background: #eafffd;
+    }
+
+    .case_item .gaaricare_img img {
+        object-fit: contain;
+        background: #ffffff;
+    }
+
+    .case_item .carrier_img img {
+        object-fit: contain;
+        background: #fdd943;
+    }
+
+    .case_item .fastdunia_img img {
+        object-fit: contain;
+        background: #b2bcc5;
+    }
+
+    .case_item .viyom_img img {
+        object-fit: contain;
+        background: #78aa15;
+    }
+
+    .case_item .rishiratna_img img {
+        object-fit: contain;
+        background: #e1a600;
+    }
+
+    .case_item .kishan_img img {
+        object-fit: contain;
+        background: #f2f3f5;
+    }
+
+    .case_item .foodezy_img img {
+        object-fit: contain;
+        background: #ffffff;
+    }
+
+    .case_item .gharbajaar_image img {
+        object-fit: contain;
+        background: #80afff;
+    }
+
+    .case_item .bank_image img {
+        object-fit: contain;
+        background: #252c32;
+    }
+
+    .case_item .chess_image img {
+        object-fit: contain;
+        background: #060612;
+    }
+
+    .case_item .easy2mart_image img {
+        object-fit: contain;
+        background: #f7f7f7;
+    }
+
+    .case_item .herbal_image img {
+        object-fit: contain;
+        background: #e8e8e6;
+    }
+
+    .case_item .yougig_image img {
+        object-fit: contain;
+        background: #f7f7fb;
+    }
+
+    .case_item .tradyl_image img {
+        object-fit: contain;
+        background: #f7f7fb;
+    }
+
+    .case_item .cosmatic_image img {
+        object-fit: contain;
+        background: #f7e8da;
+    }
+
+    .case_item .skillzcafe_image img,
+    .fitness_image img {
+        object-fit: contain;
+        background: #f7f7fb;
+    }
+
+    .case_item .synergy_image img {
+        object-fit: contain;
+        background: #edfaf7;
+    }
+
+    .case_item .ethos_image img {
+        object-fit: contain;
+        background: #ffffff;
+    }
+
+    .case_item .zymeal_image img {
+        object-fit: contain;
+        background: #ececec;
+    }
+
+    .grid li img {
+        border-radius: 0px;
+    }
+
+    .case_item .feeturre_image,
+    .agencyQ_imges,
+    .sephora_image,
+    .herbal_image,
+    .yougig_image,
+    .tradyl_image,
+    .cosmatic_image,
+    .skillzcafe_image,
+    .fitness_image,
+    .synergy_image,
+    .ethos_image,
+    .zymeal_image,
+    .solt_center_img {
+        object-fit: contain;
+        object-position: center bottom;
+    }
+
+    .case_item .content {
+        width: 100%;
+        padding: 0 15px 40px;
+    }
+
+    .case_item .content h3 {
+        margin: 10px 0 0 0;
+    }
+
+    .project_text {
+        font-size: 20px;
+    }
+
+    .project_dec {
+        padding: 10px 0 0;
+        margin: 0 0 15px 0px;
+    }
+
+    .case_item .content .read_more {
+        position: absolute;
+        bottom: 12px;
+    }
+
+    .element-item p {
+        font-size: 15px;
+    }
+
+    .kafelki_item {
+        width: 46%;
+        margin: 10px auto;
+        padding: 16px 15px;
+    }
+
+    .case_study .pu {
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .grid>li {
+        width: 100%;
+    }
+
+    .project_banner,
+    .project_agency,
+    .project_zwift,
+    .project_sephora,
+    .project_herbal,
+    .project_yougig,
+    .project_tradyl,
+    .project_c_choice,
+    .project_skillz_cafe,
+    .project_247fitness,
+    .project_synergy,
+    .project_ethosenergy,
+    .project_zymeal,
+    .project_gharbajaar,
+    .project_viyom,
+    .project_easy2mart,
+    .project_fastdunia,
+    .project_foodezy,
+    .project_gaaricare,
+    .project_kisan,
+    .project_rishiratna,
+    .project_vaidikbasket,
+    .project_carrier,
+    .project_bank,
+    .project_chess {
+        height: 608px;
+    }
+
+    .project_banner .case_layer,
+    .project_agency .case_layer,
+    .project_zwift .case_layer,
+    .project_sephora .case_layer,
+    .project_herbal .case_layer,
+    .project_yougig .case_layer,
+    .project_tradyl .case_layer,
+    .project_c_choice .case_layer,
+    .project_skillz_cafe .case_layer,
+    .project_247fitness .case_layer,
+    .project_synergy .case_layer,
+    .project_ethosenergy .case_layer,
+    .project_zymeal .case_layer,
+    .project_gharbajaar .case_layer,
+    .project_viyom .case_layer,
+    .project_easy2mart .case_layer,
+    .project_fastdunia .case_layer,
+    .project_foodezy .case_layer,
+    .project_gaaricare .case_layer,
+    .project_kisan .case_layer,
+    .project_rishiratna .case_layer,
+    .project_vaidikbasket .case_layer,
+    .project_carrier .case_layer,
+    .project_bank .case_layer,
+    .project_chess .case_layer {
+        padding: 40px 11px 34px;
+    }
+
+    .about_project {
+        margin-top: 40px;
+    }
+
+    .project_banner .case_layer h6,
+    .project_agency .case_layer h6,
+    .project_zwift .case_layer h6,
+    .project_sephora .case_layer h6,
+    .project_herbal .case_layer h6,
+    .project_yougig .case_layer h6,
+    .project_tradyl .case_layer h6,
+    .project_c_choice .case_layer h6,
+    .project_skillz_cafe .case_layer h6,
+    .project_247fitness .case_layer h6,
+    .project_synergy .case_layer h6,
+    .project_ethosenergy .case_layer h6,
+    .project_zymeal .case_layer h6,
+    .project_gharbajaar .case_layer h6,
+    .project_viyom .case_layer h6,
+    .project_easy2mart .case_layer h6,
+    .project_fastdunia .case_layer h6,
+    .project_foodezy .case_layer h6,
+    .project_gaaricare .case_layer h6,
+    .project_kisan .case_layer h6,
+    .project_rishiratna .case_layer h6,
+    .project_vaidikbasket .case_layer h6,
+    .project_carrier .case_layer h6,
+    .project_bank .case_layer h6,
+    .project_chess .case_layer h6 {
+        font-size: 16px;
+    }
+
+    .project_banner .case_layer h1.white,
+    .project_agency .case_layer h1.white,
+    .project_zwift .case_layer h1.white,
+    .project_sephora .case_layer h1.white,
+    .project_herbal .case_layer h1.white,
+    .project_yougig .case_layer h1.white,
+    .project_tradyl .case_layer h1.white,
+    .project_c_choice .case_layer h1.white,
+    .project_skillz_cafe .case_layer h1.white,
+    .project_247fitness .case_layer h1.white,
+    .project_synergy .case_layer h1.white,
+    .project_ethosenergy .case_layer h1.white,
+    .project_zymeal .case_layer h1.white,
+    .project_gharbajaar .case_layer h1.white,
+    .project_viyom .case_layer h1.white,
+    .project_easy2mart .case_layer h1.white,
+    .project_fastdunia .case_layer h1.white,
+    .project_foodezy .case_layer h1.white,
+    .project_gaaricare .case_layer h1.white,
+    .project_kisan .case_layer h1.white,
+    .project_rishiratna .case_layer h1.white,
+    .project_vaidikbasket .case_layer h1.white,
+    .project_carrier .case_layer h1.white,
+    .project_bank .case_layer h1.white,
+    .project_chess .case_layer h1.white {
+        padding: 30px 0px 20px;
+    }
+
+    .yougig_logo {
+        width: 120px;
+    }
+
+    .skillzcafe_logo {
+        width: 155px;
+    }
+
+    .fitness_logo {
+        width: 100px;
+    }
+
+    .synergy_logo {
+        width: 160px;
+    }
+
+    .ethosenergy_logo {
+        width: 170px;
+    }
+
+    .zymeal_logo {
+        width: 155px;
+    }
+
+    .opportunity_details,
+    .scope_details {
+        width: 100%;
+    }
+
+    .herbal_logo {
+        width: 125px;
+    }
+
+    .opportunity_scope {
+        flex-direction: column;
+    }
+
+    .casse_block_group {
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .about_text {
+        font-size: 14px;
+    }
+
+    .benefits .item {
+        height: 190px;
+    }
+
+    .benefits .item p {
+        max-width: 350px;
+    }
+
+    .leader_container .margin-y {
+        margin-top: 25px;
+    }
+
+    .ceo_contact {
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .ceo_text {
+        padding-left: 0px;
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .proces_text_contant {
+        width: 100%;
+        margin: 20px auto;
+        position: relative;
+    }
+
+    .case_proces_step {
+        padding: 0px 0;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .case_proces .number {
+        top: 15px;
+        left: 0px;
+    }
+
+    .case_proces .center .number {
+        top: 15px;
+        left: 0px;
+    }
+
+    .case_proces .point {
+        display: none;
+    }
+
+    .case_proces_step::after {
+        content: none;
+    }
+
+    .proces_img {
+        display: none;
+    }
+
+    .end .proces_text_contant {
+        width: 100%;
+        margin: 20px auto;
+        position: relative;
+    }
+
+    .proces_text_contant p {
+        padding: 23px 0 0;
+        margin-bottom: 9px;
+    }
+
+    .proces_text_contant h4 {
+        padding: 0 0 0 28px;
+    }
+
+    .trusted_slider .item {
+        padding: 35px 35px;
+    }
+
+    .trusted_slider .owl-item.active .item {
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    .owl-nav {
+        margin-top: 25px;
+    }
+
+    span.fas.fa-chevron-left.fa-2x {
+        right: 16%;
+    }
+
+    .sliders_p {
+        margin: 25px auto 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        padding-bottom: 0px;
+    }
+
+    .trusted_brands {
+        margin-top: 40px;
+    }
+
+    .accordion .link {
+        height: 60px;
+        padding: 5px 25px 5px 18px;
+        font-size: 13px;
+    }
+
+    .accordion li i.fa-chevron-down {
+        right: 15px;
+        left: auto;
+        top: 23px;
+        font-size: 15px;
+    }
+
+    section.faq_part {
+        margin-top: 55px;
+    }
+
+    .ceo_text_contant {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .accordion {
+        margin: 15px auto 13px;
+    }
+
+    .accordion .link {
+        height: auto;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .accordion li i.fa-chevron-down {
+        top: 13px;
+    }
+
+    .footer_item:nth-child(1) {
+        width: 50%;
+    }
+
+    .footer_item {
+        width: 50%;
+        margin-bottom: 41px;
+    }
+
+    .footer_container {
+        flex-direction: row-reverse;
+    }
+
+    .hero_section {
+        background-position: left;
+    }
+
+    .hero_section {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .hero_logo {
+        width: 150px;
+    }
+
+    .transcode_logo {
+        padding: 0px 0px 45px;
+    }
+
+    .ceo_text_conatiner h4 {
+        text-align: center;
+    }
+
+    .contact_page:before {
+        min-height: 1245px;
+    }
+}
+
+@media (max-width:575px) {
+    .filters button {
+        margin: 6px 0;
+        padding: 3px 6px;
+    }
+
+    .filters button.is-checked::after {
+        width: calc(100% - 10px);
+        left: 5px;
+    }
+
+    .leadership_items .content .name {
+        font-size: 20px;
+    }
+
+    .leader_container {
+        margin-top: 10px;
+    }
+
+    .scope_p {
+        font-size: 20px;
+    }
+
+    .wp_block_image img {
+        object-fit: cover;
+    }
+
+    .ceo_img {
+        width: 237px;
+        height: 230px;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    .case_hero {
+        font-size: 28px;
+    }
+
+    .software_text {
+        font-size: 28px;
+    }
+
+    .sliders .watermark {
+        top: 1%;
+        font-size: 35px;
+        right: 5%;
+    }
+
+    .developed_text {
+        font-size: 14px;
+    }
+
+    .case_item .content {
+        padding: 0 10px 40px;
+    }
+
+    .t_challenges {
+        padding: 0px;
+    }
+
+    .ceo_img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .ceo_section {
+        padding: 30px 0px;
+    }
+
+    .queote {
+        width: 115px;
+    }
+
+    .trusted_brands {
+        padding: 35px 0;
+        margin-top: 50px;
+    }
+
+    span.fas.fa-chevron-left.fa-2x {
+        width: 45px;
+        height: 45px;
+    }
+
+    span.fas.fa-chevron-right.fa-2x {
+        width: 45px;
+        height: 45px;
+    }
+
+    span.fas.fa-chevron-left.fa-2x {
+        right: 20%;
+    }
+
+    .footer_container {
+        flex-flow: row wrap;
+    }
+
+    .footer_item:nth-child(1) {
+        width: 100%;
+    }
+
+    footer {
+        padding: 30px 0;
+    }
+
+    .hero_logo {
+        width: 150px;
+    }
+
+    .hero_section {
+        padding: 35px 0px 50px 0px;
+    }
+
+    .btn_chat {
+        margin: 12px auto 0px auto;
+    }
+
+    .hero_logo {
+        width: 130px;
+    }
+
+    .submenu {
+        padding: 0 15px 5px;
+    }
+
+    .contact_page:before {
+        height: 1326px;
+    }
+
+    #toast-container>div {
+        padding: 10px 10px 10px 50px;
+        width: 16.7em;
+    }
+}
+
+@media (max-width:375px) {
+    .sliders .watermark {
+        top: 10%;
+        font-size: 31px;
+        right: 3%;
+    }
+
+    .project_banner .case_layer h1.white,
+    .project_agency .case_layer h1.white,
+    .project_zwift .case_layer h1.white,
+    .project_sephora .case_layer h1.white,
+    .project_herbal .case_layer h1.white,
+    .project_yougig .case_layer h1.white,
+    .project_tradyl .case_layer h1.white,
+    .project_c_choice .case_layer h1.white,
+    .project_skillz_cafe .case_layer h1.white,
+    .project_247fitness .case_layer h1.white,
+    .project_synergy .case_layer h1.white,
+    .project_ethosenergy .case_layer h1.white,
+    .project_zymeal .case_layer h1.white,
+    .project_gharbajaar .case_layer h1.white,
+    .project_viyom .case_layer h1.white,
+    .project_easy2mart .case_layer h1.white,
+    .project_fastdunia .case_layer h1.white,
+    .project_foodezy .case_layer h1.white,
+    .project_gaaricare .case_layer h1.white,
+    .project_kisan .case_layer h1.white,
+    .project_rishiratna .case_layer h1.white,
+    .project_vaidikbasket .case_layer h1.white,
+    .project_carrier .case_layer h1.white,
+    .project_bank .case_layer h1.white,
+    .project_chess .case_layer h1.white {
+        font-size: 32px;
+    }
+
+    .ceo_container {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .contact_ceo_img {
+        width: 135px;
+        height: 135px;
+    }
+
+    #form_fill,
+    .contact_page:before {
+        height: 1280px;
+    }
+}
+
+@media (max-width:320px) {
+
+    #form_fill,
+    .contact_page:before {
+        height: 1350px;
+    }
+}

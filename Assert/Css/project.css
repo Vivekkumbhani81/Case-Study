@@ -1,0 +1,1766 @@
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: Mont-Regular;
+  src: url(../fonts/Mont-Regular.ttf);
+}
+
+/*********************************************defult_css*************************************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a,
+span,
+a:hover,
+a:active,
+button {
+  text-decoration: none;
+}
+
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+p {
+  margin: 0;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin: 0;
+}
+
+ul,
+a {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cm-overflow {
+  overflow: hidden;
+}
+
+svg {
+  /* vertical-align: middle; */
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+/***************************************************************defult_css*****************************************************************/
+.feeturre_logo {
+  width: 180px;
+  height: 50px;
+}
+
+.project_banner {
+  background-image: url(/Assert/images/feeturre-artists.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_banner .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(36, 36, 41, 0.4);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_banner .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.project_banner .case_layer h6 {
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.about_project {
+  margin-top: 90px;
+}
+
+.wp_block_heading {
+  position: relative;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+h2::before,
+h1.like_h2::before {
+  content: '';
+  background: #534f98 !important;
+  border-radius: 8px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  width: 61px;
+  height: 3px;
+  bottom: -14px;
+  left: 0;
+  position: absolute;
+}
+
+.about_text {
+  margin: 0 0 16px;
+  padding: 23px 0 0;
+}
+
+.wp_block_space {
+  margin-bottom: 100px;
+}
+
+.benefits {
+  padding: 48px 0;
+  margin: 0;
+}
+
+.t_challenges {
+  padding: 0 1.1rem;
+}
+
+.benefits .item {
+  text-align: center;
+  height: 200px;
+  margin: 30px 0 15px 0;
+  z-index: 9;
+}
+
+.benefits .item h5 {
+  min-height: 52px;
+}
+
+.benefits .item p {
+  max-width: 282px;
+  margin: 0 auto;
+}
+
+.center_img {
+  margin: 20px auto;
+  display: table;
+}
+
+.scope_text {
+  font-size: 40px;
+  color: #0c0042;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.scope_text::before {
+  content: '';
+  background: #008bff;
+  border-radius: 8px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  width: 61px;
+  height: 3px;
+  bottom: -17px;
+  left: 0;
+  position: absolute;
+}
+
+.scope_p {
+  font-size: 32px;
+  margin-bottom: 0.5rem;
+  color: #0c0042;
+  font-weight: 700;
+}
+
+.key_text {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.leader_container {
+  margin-top: 30px;
+}
+
+.leadership_items {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 3.27368px 3.27368px 24.5526px rgba(0, 0, 0, .04), -3.27368px -3.27368px 24.5526px 1.63684px rgba(0, 0, 0, .04);
+  height: 100%;
+}
+
+.leadership_items .content {
+  padding: 21px;
+}
+
+.leadership_items .content .name {
+  font-family: montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #0c0042;
+}
+
+.wp-block-columns.is-layout-flex.wp-container-3.wp-block-columns-is-layout-flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.75rem;
+}
+
+.layout_flex {
+  width: 70%;
+}
+
+.solutions_flex {
+  width: 50%;
+}
+
+.hero p {
+  padding-right: 70px;
+  line-height: 28px;
+  font-family: Mont-Regular;
+}
+
+.order {
+  order: 2;
+}
+
+.case_hero {
+  font-size: 49px;
+  color: #0c0042;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn_chat {
+  background: #534f98;
+  border-radius: 8px;
+  font-family: open sans, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  padding: 8px 14px 8px 46px;
+  width: max-content;
+  text-decoration: none;
+  transition: .4s all ease;
+  text-align: center;
+  height: 44px;
+  margin-top: 20px;
+  border: 0px;
+}
+
+.btn_chat_ms:before {
+  background-image: url(https://crustlab.com/wp-content/themes/milleniumstudio_theme/public/images/chat.svg);
+}
+
+.btn_chat:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.btn_chat:hover {
+  opacity: 1;
+  /* background-color: #0325ad; */
+  background-color: #4e249b;
+  color: #fff;
+}
+
+.hero .m560 {
+  width: 560px;
+  max-width: unset;
+  margin-right: 0;
+  margin-left: -60px;
+}
+
+.kafelki {
+  margin-top: 50px;
+  overflow: visible;
+}
+
+.kafelki_container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.kafelki_item {
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px 24px;
+  margin: 0 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .13);
+  width: 180px;
+  height: inherit;
+  align-self: stretch;
+}
+
+.kafelki_number_container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kafelki_number {
+  font-family: montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #534f98;
+}
+
+.kafelki_ikona {
+  width: 24px;
+  height: 24px;
+}
+
+.kafelki_name {
+  line-height: 14px;
+  margin-top: .5rem;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: montserrat, sans-serif;
+  color: #0c0042;
+}
+
+/******************************************************************* Page 2 ******************************************************************/
+.project_agency {
+  background-image: url(/Assert/images/agency_img.webp);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_agency .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  /* background-color: rgb(36, 36, 41,0.4); */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_agency .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.project_agency .case_layer h6 {
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.kuhXvV {
+  display: block;
+  height: auto;
+}
+
+.kuhXvV svg {
+  height: 3.8rem;
+}
+
+.kNtdua {
+  height: 100%;
+  width: auto;
+}
+
+.kNtdua .main-color {
+  fill: #ffffff;
+}
+
+.kNtdua .secondary-color {
+  fill: #f26649;
+}
+
+.client_box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.client_details {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.wp_block_image img {
+  object-fit: contain;
+}
+
+.opportunity_scope {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.opportunity_details,
+.scope_details {
+  width: 50%;
+  padding: 0px 10px;
+}
+
+.core_system {
+  margin: 0px 0 60px 0;
+}
+
+.margin_bottom {
+  margin-bottom: 40px;
+}
+
+.casse_block_group {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.case_block_columns {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.has_purple_color {
+  color: #9b51e0;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.has_green_color {
+  color: #16c6c5;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.has_skyblue_color {
+  color: #0693e3;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.has_purple_color::before,
+.has_green_color::before,
+.has_skyblue_color::before {
+  content: none;
+}
+
+/******************************************************************* Page 3 ******************************************************************/
+a.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.zwift_svg {
+  width: 72px;
+}
+
+.zwift_logo {
+  width: 26px;
+}
+
+.project_zwift {
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_zwift .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(36, 36, 41, 0.4);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_zwift .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.project_zwift .case_layer h6 {
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.zwift_video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/******************************************************************* Page 4 ******************************************************************/
+.sphora_logo {
+  width: 150px;
+  opacity: 0.8;
+}
+
+.project_sephora {
+  background-image: url(/Assert/images/sephora_main_img.jpg);
+  /* background-image: url(https://img.freepik.com/premium-photo/hemp-cosmetics-generative-ai_74760-3530.jpg?w=1380); */
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_sephora .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 5%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_sephora .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.project_sephora .case_layer h6 {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.sephora_scope {
+  margin-bottom: 45px;
+}
+
+/******************************************************************* Page 5 ******************************************************************/
+.project_herbal {
+  background-image: url(/Assert/images/herbal_img.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_herbal .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_herbal .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #214842;
+  font-weight: 700;
+}
+
+.project_herbal .case_layer h6 {
+  color: #214842;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.herbal_logo {
+  width: 160px;
+}
+
+.scope_work {
+  margin-top: 50px;
+}
+
+/******************************************************************* Page 6 ******************************************************************/
+.project_yougig {
+  background-image: url(/Assert/images/yougig_main_img.png);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_yougig .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(239 239 239 / 30%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_yougig .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #270f56;
+  font-weight: 700;
+}
+
+.project_yougig .case_layer h6 {
+  color: #270f56;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.yougig_logo {
+  width: 140px;
+}
+
+.list_text {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  list-style-type: disc;
+}
+
+/******************************************************************* Page 7 ******************************************************************/
+.tradyl_logo {
+  width: 180px;
+}
+
+.project_tradyl {
+  background-image: url(/Assert/images/tradyl_main.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_tradyl .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: #00000080;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_tradyl .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.project_tradyl .case_layer h6 {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.scope_p::before {
+  content: none;
+}
+
+/******************************************************************* Page 8 ******************************************************************/
+.project_c_choice {
+  /* background-image: url(/Assert/images/cosmetic_choice.webp); */
+  background-image: url(/Assert/images/cosmatic_inner_1.png);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_c_choice .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(36 36 41 / 50%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_c_choice .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.project_c_choice .case_layer h6 {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 9 ******************************************************************/
+.project_skillz_cafe {
+  background-image: url(/Assert/images/skillzcafe.png);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_skillz_cafe::before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background: radial-gradient(100.26% 100.26% at 38.93% 11.94%, rgba(8, 34, 61, .5) 0, rgba(9, 13, 18, .7) 100%);
+}
+
+.project_skillz_cafe .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background: rgb(0 0 0 / 17%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_skillz_cafe .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.project_skillz_cafe .case_layer h6 {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.skillzcafe_logo {
+  width: 185px;
+}
+
+/******************************************************************* Page 10 ******************************************************************/
+.project_247fitness {
+  /* background-image: url(/Assert/images/247fitness.jpg); */
+  /* background-image: url(https://img.freepik.com/free-photo/strong-man-doing-weighlifting_144627-21511.jpg?w=1380&t=st=1702632988~exp=1702633588~hmac=3dc222ce59b4cfd50c000fa679e0a82ebac323f9e01c2a23411f6907609588ca); */
+  background-image: url(/Assert/images/247Fitness_inner_1.png);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_247fitness::before {
+  content: none;
+}
+
+.project_247fitness .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background: rgb(0 0 0 / 30%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_247fitness .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.project_247fitness .case_layer h6 {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.fitness_logo {
+  width: 130px;
+}
+
+/******************************************************************* Page 11 ******************************************************************/
+.synergy_logo {
+  width: 180px;
+}
+
+.project_synergy {
+  /* background-image: url(/Assert/images/synergy_main.jpg); */
+  background-image: url(/Assert/images/synergy_inner_1.png);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_synergy .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background: rrgb(3 3 3 / 45%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_synergy .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #05c6aa;
+  font-weight: 700;
+}
+
+.project_synergy .case_layer h6 {
+  color: #05c6aa;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.space_result {
+  margin-top: 45px;
+}
+
+.synergy_img {
+  margin: 25px 0px;
+}
+
+/* .desktop{
+  background-image: url(https://codiant.com/wp-content/themes/codiant-wp/assets/images/web-slider-bg.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 768px;
+  width: 100%;
+  position: relative;
+}
+.desktop_inner{
+  position: absolute;
+  z-index: -1;
+  right: 3%;
+  overflow: hidden;
+  margin: 70px auto;
+} */
+
+/******************************************************************* Page 12 ******************************************************************/
+
+.project_ethosenergy {
+  background-image: url(https://ethosenergy.com/media/l2lkquxh/ecoview-homepage.png?width=1920&height=1080&format=webp&quality=85&rnd=133317074482000000);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_ethosenergy .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background: linear-gradient(135deg, #142b34ab -50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_ethosenergy .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.project_ethosenergy .case_layer h6 {
+  color: #000000;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.ethosenergy_logo {
+  width: 190px;
+  height: 50px;
+}
+
+/******************************************************************* Page 13 ******************************************************************/
+.project_zymeal {
+  background-image: url(/Assert/images/zymeal_main_img.png);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_zymeal .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 /50%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_zymeal .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_zymeal .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.zymeal_logo {
+  width: 190px;
+}
+
+/******************************************************************* Page 14 ******************************************************************/
+.project_carrier {
+  background-image: url(/Assert/images/carrier-main-img.jpeg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_carrier .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 5%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_carrier .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_carrier .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 15 ******************************************************************/
+.project_fastdunia {
+  background-image: url(/Assert/images/Fast-Dunia-main_img.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_fastdunia .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 50%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_fastdunia .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_fastdunia .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 16 ******************************************************************/
+.project_gharbajaar {
+  background-image: url(/Assert/images/ghar-main-img.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_gharbajaar .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 40%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_gharbajaar .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_gharbajaar .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 17 ******************************************************************/
+.project_viyom {
+  background-image: url(/Assert/images/Viyom-main-img.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_viyom .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 50%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_viyom .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_viyom .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 18 ******************************************************************/
+.project_easy2mart {
+  background-image: url(/Assert/images/easy2mart-main-img.jpeg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_easy2mart .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 50%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_easy2mart .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_easy2mart .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 19 ******************************************************************/
+.project_foodezy {
+  background-image: url(/Assert/images/food.jpeg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_foodezy .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 50%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_foodezy .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_foodezy .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 20 ******************************************************************/
+.project_bank {
+  background-image: url(/Assert/images/bank_main_img.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_bank .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  /* background-color: rgb(0 0 0 / 50%); */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_bank .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_bank .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 21 ******************************************************************/
+.project_gaaricare {
+  background-image: url(/Assert/images/gaaricare-car-main-img.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_gaaricare .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 20%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_gaaricare .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_gaaricare .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 22 ******************************************************************/
+.project_kisan {
+  background-image: url(/Assert/images/Kisan-Ki-Dukan-main-img.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_kisan .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 35%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_kisan .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_kisan .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 23 ******************************************************************/
+.project_rishiratna {
+  background-image: url(/Assert/images/Rishi-Ratna-main-img.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_rishiratna .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 20%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_rishiratna .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_rishiratna .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 24 ******************************************************************/
+.project_vaidikbasket {
+  background-image: url(/Assert/images/Vaidikbasket-main-img.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_vaidikbasket .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  background-color: rgb(0 0 0 / 10%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_vaidikbasket .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_vaidikbasket .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/******************************************************************* Page 25 ******************************************************************/
+.project_chess {
+  background-image: url(/Assert/images/Chess_mian_img.jpg);
+  height: 750px;
+  position: relative;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.project_chess .case_layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 107px 96px;
+  /* background-color: rgba(255, 255, 255, 0%); */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.project_chess .case_layer h1.white {
+  text-align: center;
+  padding: 51px 0 36px;
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.project_chess .case_layer h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.inquiry_btn {
+  margin-top: 65px;
+}
