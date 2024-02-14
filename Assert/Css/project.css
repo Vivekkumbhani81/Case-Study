@@ -85,7 +85,7 @@ svg {
 }
 
 .project_banner {
-  background-image: url(Assert/images/feeturre-artists.jpg);
+  background-image: url(/Assert/images/feeturre-artists.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -391,7 +391,7 @@ h1.like_h2::before {
 
 /******************************************************************* Page 2 ******************************************************************/
 .project_agency {
-  background-image: url(Assert/images/agency_img.webp);
+  background-image: url(/Assert/images/agency_img.webp);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -610,7 +610,7 @@ a.about {
 }
 
 .project_sephora {
-  background-image: url(Assert/images/sephora_main_img.jpg);
+  background-image: url(/Assert/images/sephora_main_img.jpg);
   /* background-image: url(https://img.freepik.com/premium-photo/hemp-cosmetics-generative-ai_74760-3530.jpg?w=1380); */
   height: 750px;
   position: relative;
@@ -663,7 +663,7 @@ a.about {
 
 /******************************************************************* Page 5 ******************************************************************/
 .project_herbal {
-  background-image: url(Assert/images/herbal_img.jpg);
+  background-image: url(/Assert/images/herbal_img.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -719,7 +719,7 @@ a.about {
 
 /******************************************************************* Page 6 ******************************************************************/
 .project_yougig {
-  background-image: url(Assert/images/yougig_main_img.png);
+  background-image: url(/Assert/images/yougig_main_img.png);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -781,7 +781,7 @@ a.about {
 }
 
 .project_tradyl {
-  background-image: url(Assert/images/tradyl_main.jpg);
+  background-image: url(/Assert/images/tradyl_main.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -833,8 +833,8 @@ a.about {
 
 /******************************************************************* Page 8 ******************************************************************/
 .project_c_choice {
-  /* background-image: url(Assert/images/cosmetic_choice.webp); */
-  background-image: url(Assert/images/cosmatic_inner_1.png);
+  /* background-image: url(/Assert/images/cosmetic_choice.webp); */
+  background-image: url(/Assert/images/cosmatic_inner_1.png);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -882,7 +882,7 @@ a.about {
 
 /******************************************************************* Page 9 ******************************************************************/
 .project_skillz_cafe {
-  background-image: url(Assert/images/skillzcafe.png);
+  background-image: url(/Assert/images/skillzcafe.png);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -945,9 +945,9 @@ a.about {
 
 /******************************************************************* Page 10 ******************************************************************/
 .project_247fitness {
-  /* background-image: url(Assert/images/247fitness.jpg); */
+  /* background-image: url(/Assert/images/247fitness.jpg); */
   /* background-image: url(https://img.freepik.com/free-photo/strong-man-doing-weighlifting_144627-21511.jpg?w=1380&t=st=1702632988~exp=1702633588~hmac=3dc222ce59b4cfd50c000fa679e0a82ebac323f9e01c2a23411f6907609588ca); */
-  background-image: url(Assert/images/247Fitness_inner_1.png);
+  background-image: url(/Assert/images/247Fitness_inner_1.png);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1007,8 +1007,8 @@ a.about {
 }
 
 .project_synergy {
-  /* background-image: url(Assert/images/synergy_main.jpg); */
-  background-image: url(Assert/images/synergy_inner_1.png);
+  /* background-image: url(/Assert/images/synergy_main.jpg); */
+  background-image: url(/Assert/images/synergy_inner_1.png);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1134,7 +1134,7 @@ a.about {
 
 /******************************************************************* Page 13 ******************************************************************/
 .project_zymeal {
-  background-image: url(Assert/images/zymeal_main_img.png);
+  background-image: url(/Assert/images/zymeal_main_img.png);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1186,7 +1186,7 @@ a.about {
 
 /******************************************************************* Page 14 ******************************************************************/
 .project_carrier {
-  background-image: url(Assert/images/carrier-main-img.jpeg);
+  background-image: url(/Assert/images/carrier-main-img.jpeg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1234,7 +1234,7 @@ a.about {
 
 /******************************************************************* Page 15 ******************************************************************/
 .project_fastdunia {
-  background-image: url(Assert/images/Fast-Dunia-main_img.jpg);
+  background-image: url(/Assert/images/Fast-Dunia-main_img.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1282,7 +1282,7 @@ a.about {
 
 /******************************************************************* Page 16 ******************************************************************/
 .project_gharbajaar {
-  background-image: url(Assert/images/ghar-main-img.jpg);
+  background-image: url(/Assert/images/ghar-main-img.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1330,7 +1330,7 @@ a.about {
 
 /******************************************************************* Page 17 ******************************************************************/
 .project_viyom {
-  background-image: url(Assert/images/Viyom-main-img.jpg);
+  background-image: url(/Assert/images/Viyom-main-img.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1378,7 +1378,7 @@ a.about {
 
 /******************************************************************* Page 18 ******************************************************************/
 .project_easy2mart {
-  background-image: url(Assert/images/easy2mart-main-img.jpeg);
+  background-image: url(/Assert/images/easy2mart-main-img.jpeg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1426,7 +1426,7 @@ a.about {
 
 /******************************************************************* Page 19 ******************************************************************/
 .project_foodezy {
-  background-image: url(Assert/images/food.jpeg);
+  background-image: url(/Assert/images/food.jpeg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1474,7 +1474,7 @@ a.about {
 
 /******************************************************************* Page 20 ******************************************************************/
 .project_bank {
-  background-image: url(Assert/images/bank_main_img.jpg);
+  background-image: url(/Assert/images/bank_main_img.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1522,7 +1522,7 @@ a.about {
 
 /******************************************************************* Page 21 ******************************************************************/
 .project_gaaricare {
-  background-image: url(Assert/images/gaaricare-car-main-img.jpg);
+  background-image: url(/Assert/images/gaaricare-car-main-img.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1570,7 +1570,7 @@ a.about {
 
 /******************************************************************* Page 22 ******************************************************************/
 .project_kisan {
-  background-image: url(Assert/images/Kisan-Ki-Dukan-main-img.jpg);
+  background-image: url(/Assert/images/Kisan-Ki-Dukan-main-img.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1618,7 +1618,7 @@ a.about {
 
 /******************************************************************* Page 23 ******************************************************************/
 .project_rishiratna {
-  background-image: url(Assert/images/Rishi-Ratna-main-img.jpg);
+  background-image: url(/Assert/images/Rishi-Ratna-main-img.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1666,7 +1666,7 @@ a.about {
 
 /******************************************************************* Page 24 ******************************************************************/
 .project_vaidikbasket {
-  background-image: url(Assert/images/Vaidikbasket-main-img.jpg);
+  background-image: url(/Assert/images/Vaidikbasket-main-img.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
@@ -1714,7 +1714,7 @@ a.about {
 
 /******************************************************************* Page 25 ******************************************************************/
 .project_chess {
-  background-image: url(Assert/images/Chess_mian_img.jpg);
+  background-image: url(/Assert/images/Chess_mian_img.jpg);
   height: 750px;
   position: relative;
   margin-top: 0;
